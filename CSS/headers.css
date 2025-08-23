@@ -1,14 +1,10 @@
-.navbar {
-    padding:2vh;
-}
-
+/* Minimal custom styles for Pico Pumpkin theme */
 .logo {
-    height:8vh;
-    width: 50px;
-    width: auto;
-    margin-right: 5px;
+  height: 2em;
+  width: auto;
+  margin-right: 0.5em;
+  vertical-align: middle;
 }
-
 .branding {
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
