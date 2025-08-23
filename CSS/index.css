@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    object-fit: cover;
+}
+
+.blur {
+    filter:blur(2px);
+}
+
+.filled {
+    width: 110%;
+}
+
+.main-image {
+    max-height: 80vh;
+    width: 100%;
+    display:flex;
+    filter:blur(3px);
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.1);
+    z-index: -1;;
+}
+
+.container-text {
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:35%;
+    left:50%;
+    color: white;
+    font-size: 5rem;
+    font-weight:bold;
+}

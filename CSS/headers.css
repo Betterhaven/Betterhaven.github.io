@@ -1,0 +1,14 @@
+.navbar {
+    padding:2vh;
+}
+
+.logo {
+    height:8vh;
+    width: 50px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.branding {
+    font-family: "Playfair Display", serif;
+}
