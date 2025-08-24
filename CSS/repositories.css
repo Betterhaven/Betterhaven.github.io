@@ -2,3 +2,13 @@
     margin-left: 2vw;
 }
 
+.repo-card {
+    border: 2px solid var(--primary-accent-colour);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #2e2933 !important;
+    color: white;          
+    list-style: none;
+    max-width: 40vw;   
+}

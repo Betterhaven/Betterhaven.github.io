@@ -12,19 +12,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.pumpkin.min.css"
     />
+     <link rel="stylesheet" href="../CSS/variables.css" />
     <link rel="stylesheet" href="../CSS/headers.css" />
     <link rel="stylesheet" href="../CSS/repositories.css" />
 </head>
 <body>
     <div id="top-bar"></div>
     <div class="content">
-    <div id="repo-list"></div>
+        <ul id="repo-list"></ul>
     </div>
     <script type="text/javascript" src="../JS/headers.js"></script>
     <script type="text/javascript" src="../JS/get_repos.js"></script>
     <script>
-      loadHeaderFooter();
+      document.addEventListener("DOMContentLoaded", () => {
+        loadHeaderFooter();
         getRepos();
+        });
     </script>
 </body>
 </html>

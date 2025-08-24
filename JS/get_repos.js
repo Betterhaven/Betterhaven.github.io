@@ -9,6 +9,7 @@ function getRepos() {
         repoLink.href = repo.html_url;
         repoLink.textContent = repo.name;
         listItem.appendChild(repoLink);
+        listItem.classList.add("repo-card");
         const description = document.createElement("p");
         description.textContent = repo.description || "No description available.";
         listItem.appendChild(description);

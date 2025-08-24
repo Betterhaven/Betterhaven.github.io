@@ -1,9 +1,4 @@
-:root {
-  --primary-background-colour: #18141c;
-  --pico-background-color: #18141c !important;
-  --pico-card-background-color: #18141c !important;
-  --pico-nav-background-color: #18141c !important;
-}
+
 
 body {
   background-color: var(--primary-background-colour);
