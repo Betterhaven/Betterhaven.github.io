@@ -1,5 +1,5 @@
 .content {
-    margin-left: 2vw;
+  margin-left: 2vw;
 }
 
 .repo-card {
@@ -17,7 +17,7 @@
 }
 
 .repo-card:hover {
-    background-color: #38333d !important;
+  background-color: #38333d !important;
 }
 
 @keyframes fadeIn {
