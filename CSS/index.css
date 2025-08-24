@@ -27,7 +27,7 @@
   max-height: 80vh;
   width: 100%;
   display: flex;
-  filter: blur(3px);
+  filter: blur(2px);
   position: relative;
   overflow: clip;
   transform: scale(1.1);
@@ -36,13 +36,13 @@
 
 .container-text {
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 35%;
+  top: 30%;
   left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: bold;
-  max-width: 80vw;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .image-container::before,
@@ -65,4 +65,8 @@
   bottom: 0;
   background: linear-gradient(to top, var(--primary-background-colour), transparent);
   
+}
+
+.text-container {
+  text-align: center;
 }
