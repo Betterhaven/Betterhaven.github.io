@@ -1,3 +1,6 @@
+:root {
+  --primary-background-colour: #18141c
+}
 
 * {
   margin:0;
@@ -5,10 +8,12 @@
 
 .image-container {
   object-fit: cover;
-  overflow: hidden;
+  overflow: clip;
   justify-content: center;
   cursor: default;
+  position: relative
 }
+
 
 .blur {
   filter: blur(2px);
@@ -24,7 +29,7 @@
   display: flex;
   filter: blur(3px);
   position: relative;
-  overflow: hidden;
+  overflow: clip;
   transform: scale(1.1);
   z-index: -1;
 }
@@ -38,4 +43,26 @@
   font-size: 5rem;
   font-weight: bold;
   max-width: 80vw;
+}
+
+.image-container::before,
+.image-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 10%; 
+  pointer-events: none; 
+}
+
+.image-container::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--primary-background-colour), transparent);
+  
+}
+
+.image-container::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--primary-background-colour), transparent);
+  
 }
