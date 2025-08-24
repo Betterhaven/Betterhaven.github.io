@@ -1,5 +1,12 @@
 :root {
-  --primary-background-colour: #18141c
+  --primary-background-colour: #18141c;
+  --pico-background-color: #18141c !important;
+  --pico-card-background-color: #18141c !important;
+  --pico-nav-background-color: #18141c !important;
+}
+
+body {
+  background-color: var(--primary-background-colour);
 }
 
 * {
@@ -51,7 +58,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 10%; 
+  height: 15%; 
   pointer-events: none; 
 }
 
@@ -69,4 +76,19 @@
 
 .text-container {
   text-align: center;
+  background-color: var(--primary-background-colour);
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
 }
+
+.text-container header {
+  background-color: var(--primary-background-colour);
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.text-container p {
+  text-align: left;
+}
+

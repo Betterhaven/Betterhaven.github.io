@@ -12,7 +12,8 @@
 
 .top-bar {
   padding: 2vh 1vw;
-  opacity: 1 !important
+  opacity: 1 !important;
+  position: sticky;
 }
 
 .slide-in {
