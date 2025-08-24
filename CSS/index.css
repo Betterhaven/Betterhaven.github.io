@@ -3,12 +3,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("/images/mountaintop.webp");
 }
 
 .image-container {
   object-fit: cover;
   overflow: hidden;
+  justify-content: center;
 }
 
 .blur {
@@ -38,4 +38,5 @@ body {
   color: white;
   font-size: 5rem;
   font-weight: bold;
+  max-width: 80vw;
 }
