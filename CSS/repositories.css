@@ -10,5 +10,10 @@
     background-color: #2e2933 !important;
     color: white;          
     list-style: none;
-    max-width: 40vw;   
+    max-width: 40vw;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.repo-card:hover {
+    background-color: #38333d !important;
 }
