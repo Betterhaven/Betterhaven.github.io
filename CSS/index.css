@@ -34,6 +34,8 @@ body {
   overflow: clip;
   transform: scale(1.1);
   z-index: -1;
+  pointer-events: none;
+  user-select: none;
 }
 
 .container-text {
