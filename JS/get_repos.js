@@ -1,6 +1,6 @@
 function getRepos() {
   const repoList = document.getElementById("repo-list");
-    fetch("https://api.github.com/orgs/BetterHaven/repos")
+  fetch("https://api.github.com/orgs/BetterHaven/repos")
     .then((response) => response.json())
     .then((repos) => {
       repos.forEach((repo) => {
@@ -11,7 +11,8 @@ function getRepos() {
         listItem.appendChild(repoLink);
         listItem.classList.add("repo-card");
         const description = document.createElement("p");
-        description.textContent = repo.description || "No description available.";
+        description.textContent =
+          repo.description || "No description available.";
         listItem.appendChild(description);
         repoList.appendChild(listItem);
       });

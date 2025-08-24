@@ -1,11 +1,9 @@
-
-
 body {
   background-color: var(--primary-background-colour);
 }
 
 * {
-  margin:0;
+  margin: 0;
 }
 
 .image-container {
@@ -13,9 +11,8 @@ body {
   overflow: clip;
   justify-content: center;
   cursor: default;
-  position: relative
+  position: relative;
 }
-
 
 .blur {
   filter: blur(2px);
@@ -46,7 +43,7 @@ body {
   color: white;
   font-size: 5vw;
   font-weight: bold;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
 }
 
 .image-container::before,
@@ -55,20 +52,26 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  height: 15%; 
-  pointer-events: none; 
+  height: 15%;
+  pointer-events: none;
 }
 
 .image-container::before {
   top: 0;
-  background: linear-gradient(to bottom, var(--primary-background-colour), transparent);
-  
+  background: linear-gradient(
+    to bottom,
+    var(--primary-background-colour),
+    transparent
+  );
 }
 
 .image-container::after {
   bottom: 0;
-  background: linear-gradient(to top, var(--primary-background-colour), transparent);
-  
+  background: linear-gradient(
+    to top,
+    var(--primary-background-colour),
+    transparent
+  );
 }
 
 .text-container {
@@ -88,4 +91,3 @@ body {
 .text-container p {
   text-align: left;
 }
-

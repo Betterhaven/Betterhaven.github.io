@@ -17,16 +17,16 @@
 }
 
 .slide-in {
-  position:relative;
-  animation: slideIn 1s ease-in-out ;
+  position: relative;
+  animation: slideIn 1s ease-in-out;
 }
 
 .transparent {
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background: transparent;
   z-index: 10000;
-  position:absolute;
+  position: absolute;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 
 @keyframes slideIn {
   from {
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     opacity: 0;
   }
   to {
