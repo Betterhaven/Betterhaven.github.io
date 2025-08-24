@@ -1,8 +1,0 @@
-:root {
-  --primary-background-colour: #18141c;
-  --diminished-background-colour: #3b3640;
-  --pico-background-color: #18141c !important;
-  --pico-card-background-color: #18141c !important;
-  --pico-nav-background-color: #18141c !important;
-  --primary-accent-colour: #ff9900;
-}
