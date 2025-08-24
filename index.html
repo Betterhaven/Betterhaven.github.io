@@ -13,13 +13,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.pumpkin.min.css"
     />
-    <link rel="stylesheet" href="CSS/index.css" />
-    <link rel="stylesheet" href="CSS/headers.css" />
+    <link rel="stylesheet" href="/CSS/headers.css" />
+    <link rel="stylesheet" href="/CSS/index.css" />
   </head>
   <body>
+    <script src="JS/headers.js"></script>
     <div id="top-bar"></div>
     <main>
-      <figure class="image-container" style="position: relative">
+      <figure class="image-container"">
         <img
           src="/images/mountaintop.webp"
           alt="mountainview"
@@ -47,6 +48,8 @@
         </figcaption>
       </figure>
     </main>
-    <script type="text/javascript" src="JS/headers.js"></script>
+    <script>
+      loadHeaderFooter(true);
+    </script>
   </body>
 </html>
