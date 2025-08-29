@@ -16,6 +16,10 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
+.repo-card p {
+  color: white;
+}
+
 .repo-card:hover {
   background-color: #38333d !important;
 }

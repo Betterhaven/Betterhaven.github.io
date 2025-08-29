@@ -1,4 +1,3 @@
-body {color: white;}
 
 .logo {
   height: 2rem;
@@ -33,6 +32,11 @@ body {color: white;}
 
 body {
   opacity: 0;
+  color:white !important;
+}
+
+.white-text {
+  color: white !important;
 }
 
 @keyframes fadeIn {
